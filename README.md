@@ -58,16 +58,43 @@ pipeline, not the photographs**. It ships with a placeholder album so a clone st
 
 ---
 
-### Also in here
+---
+
+### 🕰️ [Timeport](https://github.com/amrbody71-commits/timeport)
+
+Stand somewhere that no longer exists — Manchester 1750, Times Square 1910, Alexandria 1970,
+as 360° panoramas you look around from the inside.
+
+An equirectangular image has to wrap, and diffusion models do not know that. The seam is
+fixed by rolling the image 50% so the tear lands mid-frame where an inpaint can reach it,
+repairing it with the **same** 360 LoRA still loaded, then rolling back — repair it with the
+base model instead and that strip quietly reverts to normal perspective.
+
+`FLUX` · `LoRA` · `fal` · period-researched prompts
+
+---
+
+### 👔 [style.](https://github.com/amrbody71-commits/style)
+
+I photographed every piece of clothing I own, and now something builds me an outfit before
+I wake up. It reads the weather, assembles looks from the actual clothes, and renders one
+self-contained page with the garments cut out and embedded.
+
+Feedback becomes dated one-line rules — *always a white tee under any quarter-zip* — capped
+at twenty lines, so it stays a rulebook rather than a diary.
+
+The engine and schema are public; the wardrobe is not.
+
+`Python` · `Pillow` · weather-reactive · learns from feedback
+
+---
+
+### Also built, still private
 
 | | |
 |---|---|
-| **Timeport** | AI-generated 360° panoramas of places that no longer exist, from historically-researched prompts |
 | **Empty Skies** | Middle East airspace during the closure, read out of OpenSky flight data |
-| **style.** | I photographed my wardrobe and built something that dresses me from it, learning from feedback |
 | **Jumu'ah Manchester** | Prayer times, for people who need them |
-
-Some of these are still private while I clean them up.
 
 ---
 
