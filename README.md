@@ -1,9 +1,29 @@
-# Abdelrahman Shaaban
+[![Abdelrahman Shaaban — abdelrahmanshaaban.com](banner.jpg)](https://abdelrahmanshaaban.com)
+
+<h2 align="center"><a href="https://abdelrahmanshaaban.com">abdelrahmanshaaban.com</a></h2>
+
+<p align="center">
+Everything about me in one place — what I have built, where I have been, and how to reach me.<br>
+It is a place you walk through.
+</p>
+
+<p align="center">
+<a href="https://abdelrahmanshaaban.com"><b>Open the site&nbsp;&rarr;</b></a>
+&nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/abdelrahman-shaaban1">LinkedIn</a>
+&nbsp;·&nbsp;
+<a href="https://www.instagram.com/shaaban__ai/">@shaaban__ai</a>
+&nbsp;·&nbsp;
+<a href="mailto:shaaban721@outlook.com">shaaban721@outlook.com</a>
+</p>
+
+---
 
 I build things that run in a browser tab and try to feel like more than a browser tab —
 real-time WebGL, procedural geometry, and live data, usually with no build step at all.
 
-**[shaaban-six.vercel.app](https://shaaban-six.vercel.app)** · **[@shaaban\_\_ai](https://www.instagram.com/shaaban__ai/)**
+MSc Management at LSE. First Class BEng in Mechanical Engineering with Management from Manchester.
+Looking for graduate roles in tech, operations or consulting.
 
 ---
 
