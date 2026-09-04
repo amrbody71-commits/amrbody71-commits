@@ -1,9 +1,9 @@
-[![Abdelrahman Shaaban — abdelrahmanshaaban.com](banner.jpg)](https://abdelrahmanshaaban.com)
+[![Abdelrahman Shaaban, abdelrahmanshaaban.com](banner.jpg)](https://abdelrahmanshaaban.com)
 
 <h2 align="center"><a href="https://abdelrahmanshaaban.com">abdelrahmanshaaban.com</a></h2>
 
 <p align="center">
-Everything about me in one place — what I have built, where I have been, and how to reach me.<br>
+Everything about me in one place: what I have built, where I have been, and how to reach me.<br>
 It is a place you walk through.
 </p>
 
@@ -19,8 +19,8 @@ It is a place you walk through.
 
 ---
 
-I build things that run in a browser tab and try to feel like more than a browser tab —
-real-time WebGL, procedural geometry, and live data, usually with no build step at all.
+I build things that run in a browser tab and try to feel like more than a browser tab.
+Real-time WebGL, procedural geometry, and live data, usually with no build step at all.
 
 MSc Management at LSE. First Class BEng in Mechanical Engineering with Management from Manchester.
 Looking for graduate roles in tech, operations or consulting.
@@ -33,7 +33,7 @@ Looking for graduate roles in tech, operations or consulting.
 
 A spinning Earth carrying **284 live webcams across 53 countries**. Hover a pin and you see
 what is happening there right now. The globe is lit from the real subsolar point, so the
-cameras that are genuinely in darkness read as dark — that is the whole idea, not a decoration.
+cameras that are genuinely in darkness read as dark. That is the whole idea.
 
 Geographic correctness is asserted against the *real Earth* rather than against the app,
 after a mirrored-world bug once stayed perfectly self-consistent through every internal check.
@@ -51,7 +51,7 @@ through the bedrock into the Hall of Two Truths where your heart is weighed agai
 feather, and you climb back out at dawn.
 
 The pyramids, dunes, sky, river, hall and the extruded `DUAT` wordmark are **all procedural
-geometry** — written in code, not modelled. One HTML file, no bundler, no `node_modules`.
+geometry**, written in code rather than modelled. One HTML file, no bundler, no `node_modules`.
 
 My first website.
 
@@ -67,7 +67,7 @@ A scroll-driven descent through a life. Photographs hang as glass lanterns on a 
 falling away into the dark, a thread of light runs down the axis lit only as far as you
 have travelled, and the colour of the world shifts as you pass through the years.
 
-Volumetric ink boils off the thread — a `GPUComputationRenderer` FBO pair advecting up to
+Volumetric ink boils off the thread: a `GPUComputationRenderer` FBO pair advecting up to
 **36,864 particles entirely on the GPU**, each one keeping the colour of the year it was
 born into.
 
@@ -82,12 +82,12 @@ pipeline, not the photographs**. It ships with a placeholder album so a clone st
 
 ### 🕰️ [Timeport](https://github.com/amrbody71-commits/timeport)
 
-Stand somewhere that no longer exists — Manchester 1750, Times Square 1910, Alexandria 1970,
+Stand somewhere that no longer exists. Manchester 1750, Times Square 1910, Alexandria 1970,
 as 360° panoramas you look around from the inside.
 
 An equirectangular image has to wrap, and diffusion models do not know that. The seam is
 fixed by rolling the image 50% so the tear lands mid-frame where an inpaint can reach it,
-repairing it with the **same** 360 LoRA still loaded, then rolling back — repair it with the
+repairing it with the **same** 360 LoRA still loaded, then rolling back. Repair it with the
 base model instead and that strip quietly reverts to normal perspective.
 
 `FLUX` · `LoRA` · `fal` · period-researched prompts
@@ -100,7 +100,7 @@ I photographed every piece of clothing I own, and now something builds me an out
 I wake up. It reads the weather, assembles looks from the actual clothes, and renders one
 self-contained page with the garments cut out and embedded.
 
-Feedback becomes dated one-line rules — *always a white tee under any quarter-zip* — capped
+Feedback becomes dated one-line rules like *always a white tee under any quarter-zip*, capped
 at twenty lines, so it stays a rulebook rather than a diary.
 
 The engine and schema are public; the wardrobe is not.
