@@ -46,6 +46,8 @@ after a mirrored-world bug once stayed perfectly self-consistent through every i
 
 ### 𓂀 [DUAT](https://github.com/amrbody71-commits/duat)
 
+[![DUAT](https://raw.githubusercontent.com/amrbody71-commits/duat/main/docs/hero.jpg)](https://duat-phi.vercel.app)
+
 A scroll-driven descent into the Egyptian underworld. The sun sets over Giza, you fall
 through the bedrock into the Hall of Two Truths where your heart is weighed against a
 feather, and you climb back out at dawn.
@@ -63,6 +65,8 @@ My first website.
 
 ### عُمر [OMR](https://github.com/amrbody71-commits/omr)
 
+[![OMR](https://raw.githubusercontent.com/amrbody71-commits/omr/main/docs/hero.jpg)](https://github.com/amrbody71-commits/omr)
+
 A scroll-driven descent through a life. Photographs hang as glass lanterns on a helix
 falling away into the dark, a thread of light runs down the axis lit only as far as you
 have travelled, and the colour of the world shifts as you pass through the years.
@@ -78,9 +82,9 @@ pipeline, not the photographs**. It ships with a placeholder album so a clone st
 
 ---
 
----
-
 ### 🕰️ [Timeport](https://github.com/amrbody71-commits/timeport)
+
+[![Timeport](https://raw.githubusercontent.com/amrbody71-commits/timeport/main/docs/hero.jpg)](https://github.com/amrbody71-commits/timeport)
 
 Stand somewhere that no longer exists. Manchester 1750, Times Square 1910, Alexandria 1970,
 as 360° panoramas you look around from the inside.
@@ -95,6 +99,8 @@ base model instead and that strip quietly reverts to normal perspective.
 ---
 
 ### 👔 [style.](https://github.com/amrbody71-commits/style)
+
+[![style.](https://raw.githubusercontent.com/amrbody71-commits/style/main/docs/hero.png)](https://github.com/amrbody71-commits/style)
 
 I photographed every piece of clothing I own, and now something builds me an outfit before
 I wake up. It reads the weather, assembles looks from the actual clothes, and renders one
