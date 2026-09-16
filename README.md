@@ -35,8 +35,8 @@ A spinning Earth carrying **284 live webcams across 53 countries**. Hover a pin 
 what is happening there right now. The globe is lit from the real subsolar point, so the
 cameras that are genuinely in darkness read as dark. That is the whole idea.
 
-Geographic correctness is asserted against the *real Earth* rather than against the app,
-after a mirrored-world bug once stayed perfectly self-consistent through every internal check.
+Geographic correctness is asserted against the *real Earth*, after a mirrored-world bug once
+stayed perfectly self-consistent through every internal check.
 
 `WebGL2` · `three.js` · `GLSL` · `Natural Earth` · `NASA Black Marble` · no build step
 
@@ -53,7 +53,7 @@ through the bedrock into the Hall of Two Truths where your heart is weighed agai
 feather, and you climb back out at dawn.
 
 The pyramids, dunes, sky, river, hall and the extruded `DUAT` wordmark are **all procedural
-geometry**, written in code rather than modelled. One HTML file, no bundler, no `node_modules`.
+geometry**, written in code. One HTML file, no bundler, no `node_modules`.
 
 My first website.
 
@@ -75,10 +75,51 @@ Volumetric ink boils off the thread: a `GPUComputationRenderer` FBO pair advecti
 **36,864 particles entirely on the GPU**, each one keeping the colour of the year it was
 born into.
 
-The album is a private family one, so the repository publishes **the engine and the
-pipeline, not the photographs**. It ships with a placeholder album so a clone still runs.
+The album is a private family one, so the photographs stay private and the repository
+publishes **the engine and the pipeline**. It ships with a placeholder album so a clone still runs.
 
 `three.js` · `GPGPU` · `GLSL` · `fal` depth pipeline
+
+---
+
+### ✋ [Casing](https://github.com/amrbody71-commits/casing)
+
+[![Casing](https://raw.githubusercontent.com/amrbody71-commits/casing/main/docs/hero.jpg)](https://casing.vercel.app)
+
+Control time with your hand. A webcam tracks one hand, and the gap between your thumb and
+index finger scrubs through a sequence of frames. Open your hand and the Great Pyramid goes
+up block by block while the date counts from 2580 to 2560 BCE. Close it and the plateau is
+bare desert again.
+
+This only works if every frame sits further along than the one before it, so each clip is
+scored before it ships. Six of seven stock flower timelapses failed, and so did the raw
+Dubai satellite series until its frames were normalised.
+
+`WebGL2` · `MediaPipe` · `GLSL` · hand tracking in a worker · no build step
+
+**[Live →](https://casing.vercel.app)**
+
+---
+
+### 📡 [Empty Skies](https://github.com/amrbody71-commits/empty-skies)
+
+[![Empty Skies](https://raw.githubusercontent.com/amrbody71-commits/empty-skies/master/docs/hero.jpg)](https://empty-skies.vercel.app)
+
+An animated reconstruction of the Middle East airspace shutdown, 27 February to 3 March 2026:
+about **13,000 modelled flights across 120 hours**, on a globe or a flat map. Iran, Iraq,
+Kuwait and the UAE close, traffic falls 89%, and 441 aircraft already in the air turn for the
+nearest open field.
+
+OpenSky's REST API only reaches back an hour, so the traffic is modelled, and the page says so
+on screen the whole time. A script swaps in real OpenSky data and the badge turns green by
+itself.
+
+The live link opens the second version, a 3D console of real aircraft that needs no API keys.
+It had **about 500 visitors** by September 2026.
+
+`Canvas 2D` · `Natural Earth` · `OpenSky` · `Python` · single HTML file
+
+**[Live →](https://empty-skies.vercel.app)**
 
 ---
 
@@ -104,14 +145,48 @@ base model instead and that strip quietly reverts to normal perspective.
 
 I photographed every piece of clothing I own, and now something builds me an outfit before
 I wake up. It reads the weather, assembles looks from the actual clothes, and renders one
-self-contained page with the garments cut out and embedded.
+self-contained page with the garments cut out and embedded. It has **20 users** as of
+September 2026.
 
 Feedback becomes dated one-line rules like *always a white tee under any quarter-zip*, capped
-at twenty lines, so it stays a rulebook rather than a diary.
+at twenty lines so the rulebook stays short.
 
-The engine and schema are public; the wardrobe is not.
+The engine and schema are public, and the wardrobe stays private.
 
 `Python` · `Pillow` · weather-reactive · learns from feedback
+
+---
+
+### 🧾 [Receipt Roll](https://github.com/amrbody71-commits/receipt-roll)
+
+[![Receipt Roll](https://raw.githubusercontent.com/amrbody71-commits/receipt-roll/master/docs/hero.png)](https://receipt-roll.vercel.app)
+
+Receipt photos in, a ledger out. A vision model read every figure off each photograph, from
+the shop and the date to the items and the total. The page turns that into a ledger you can
+filter, with charts and a flag on any receipt over an amount you choose.
+
+The demo runs on receipt photos downloaded from the internet, dated 2012 to 2019. Swap in
+your own by replacing the data block at the top of the file.
+
+`vision model` · built with `Claude Code` · one HTML file · no backend
+
+**[Live →](https://receipt-roll.vercel.app)**
+
+---
+
+### ✈️ [Airplane Notifier](https://github.com/amrbody71-commits/airplane-notifier)
+
+[![Airplane Notifier](https://raw.githubusercontent.com/amrbody71-commits/airplane-notifier/main/docs/hero.png)](https://github.com/amrbody71-commits/airplane-notifier)
+
+A Windows tray app. Five minutes before a meeting, an airplane flies across every monitor
+towing a banner with the meeting's name. On its own schedule, a character walks in from a
+corner of the screen to ask whether you have eaten or had water, then walks back out.
+
+Event titles are drawn as plain text. Qt detects rich text by default, so a calendar invite
+whose title held an `<img>` tag pointing at a network share would make Qt open a connection
+and leak a Windows credential hash.
+
+`Python` · `PyQt6` · `Google Calendar API` · 233 tests
 
 ---
 
@@ -119,11 +194,9 @@ The engine and schema are public; the wardrobe is not.
 
 | | |
 |---|---|
-| **Empty Skies** | Middle East airspace during the closure, read out of OpenSky flight data |
 | **Jumu'ah Manchester** | Prayer times, for people who need them |
 
 ---
 
-<sub>Most repositories here are working notebooks rather than finished products, and the
-few that are public say honestly what they do not do. The globe's README has a *Known gaps*
-section for a reason.</sub>
+<sub>Most repositories here are working notebooks, and the public ones spell out what they
+do not do. The globe's README has a *Known gaps* section for a reason.</sub>
