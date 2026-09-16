@@ -27,6 +27,26 @@ Looking for graduate roles in tech, operations or consulting.
 
 ---
 
+### 🌸 [Spring Bloom](https://github.com/amrbody71-commits/spring-bloom)
+
+[![Spring Bloom](https://raw.githubusercontent.com/amrbody71-commits/spring-bloom/main/docs/hero.jpg)](https://spring-bloom-phi.vercel.app)
+
+A published children's book as a 3D pop-up you can read in a browser. The hardback lies on
+a desk under a lamp, every page turn bends like paper, and when a spread settles its
+illustration stands up off the page as layered cut-outs while a narrator reads it with each
+word lit as it is spoken. Tap a word and it is said on its own. Tap the fox and the camera
+flies to the fox.
+
+The cut-outs are segmented from the printed illustrations, so every picture on screen is the
+book's own. Built with the permission of the authors Sadia Mir and Summer Al-Jarrah Bateiha,
+the illustrator Inna Ogando and Hamad Bin Khalifa University Press.
+
+`three.js` · `WebGL` · `ElevenLabs` word timings · `SAM2` cut-outs · no build step
+
+**[Live →](https://spring-bloom-phi.vercel.app)**
+
+---
+
 ### 🌍 [Our Beautiful Planet](https://github.com/amrbody71-commits/our-beautiful-planet)
 
 [![Our Beautiful Planet](https://raw.githubusercontent.com/amrbody71-commits/our-beautiful-planet/main/docs/hero.jpg)](https://our-beautiful-planet.vercel.app)
