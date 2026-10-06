@@ -23,7 +23,6 @@ I build things that run in a browser tab and try to feel like more than a browse
 Real-time WebGL, procedural geometry, and live data, usually with no build step at all.
 
 MSc Management at LSE. First Class BEng in Mechanical Engineering with Management from Manchester.
-Looking for graduate roles in tech, operations or consulting.
 
 ---
 
