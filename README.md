@@ -143,22 +143,6 @@ It had **about 500 visitors** by September 2026.
 
 ---
 
-### 🕰️ [Timeport](https://github.com/amrbody71-commits/timeport)
-
-[![Timeport](https://raw.githubusercontent.com/amrbody71-commits/timeport/main/docs/hero.jpg)](https://github.com/amrbody71-commits/timeport)
-
-Stand somewhere that no longer exists. Manchester 1750, Times Square 1910, Alexandria 1970,
-as 360° panoramas you look around from the inside.
-
-An equirectangular image has to wrap, and diffusion models do not know that. The seam is
-fixed by rolling the image 50% so the tear lands mid-frame where an inpaint can reach it,
-repairing it with the **same** 360 LoRA still loaded, then rolling back. Repair it with the
-base model instead and that strip quietly reverts to normal perspective.
-
-`FLUX` · `LoRA` · `fal` · period-researched prompts
-
----
-
 ### 👔 [style.](https://github.com/amrbody71-commits/style)
 
 [![style.](https://raw.githubusercontent.com/amrbody71-commits/style/main/docs/hero.png)](https://github.com/amrbody71-commits/style)
